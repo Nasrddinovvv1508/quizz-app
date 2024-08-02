@@ -7,7 +7,7 @@ function MenuLinks() {
     isPending,
     error,
   } = useFetch(
-    "https://online-json-server-api.up.railway.app/project/66589e8316aab5687eae3b28/quizzes"
+    "https://online-json-server-api.up.railway.app/project/66ac5d6a340dd55056fb20a6/quizzes"
   );
 
   return (
@@ -24,7 +24,7 @@ function MenuLinks() {
                 className="menu-item header-logo"
               >
                 <figure style={{ backgroundColor: item.color }}>
-                  <img src={item.icon} alt="" />
+                  <img style={{width: '40px', height: '40px'}} src={item.icon} alt="" />
                 </figure>
                 <span>{item.title}</span>
               </Link>
