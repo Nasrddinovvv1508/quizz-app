@@ -6,7 +6,7 @@ function Home() {
       <div className="home-content">
         <h1 className="home-title">
           <span>Welcome to the</span>
-          <span>Frontend Quiz!</span>
+          <span>Quiz App!</span>
         </h1>
         <p>Pick a subject to get started.</p>
       </div>

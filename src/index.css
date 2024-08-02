@@ -327,7 +327,7 @@ header input:checked+span span:first-child {
 }
 
 .menu-item:hover {
-  background-color: #e9e8e8;
+  background-color: #f0f0f0;
 }
 
 .menu-item span {
